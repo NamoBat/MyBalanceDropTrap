@@ -4,7 +4,7 @@ pragma solidity ^0.8.12;
 import "./ITrap.sol";
 
 contract MyBalanceDropTrap is ITrap {
-    address public constant TARGET = 0x35e633E2D6bEe9696FC734761858496B0b164F9F;
+    address public constant TARGET = wallet_address;
     uint256 public constant DROP_BPS_THRESHOLD = 1_000;
     uint8   public constant MIN_SAMPLES = 2;
 
